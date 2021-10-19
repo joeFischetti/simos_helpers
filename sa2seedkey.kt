@@ -5,7 +5,7 @@ import java.nio.ByteOrder
 fun main(args: Array<String>) {
 		var challenge: ByteArray
 
-		if(args.length == 1){
+		if(args.size == 1){
 			challenge = hexStringToByteArray(args[1])
 		}
 		else{
