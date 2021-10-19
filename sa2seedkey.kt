@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
 		var challenge: ByteArray
 
 		if(args.size == 1){
-			challenge = hexStringToByteArray(args[1])
+			challenge = hexStringToByteArray(args[0])
 		}
 		else{
             challenge = byteArrayOf(0x1a.toByte(), 0x1b.toByte(), 0x1c.toByte(), 0x1d.toByte())
