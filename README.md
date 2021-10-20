@@ -8,3 +8,6 @@ java -jar sa2seedkey.jar DEADBEEF
 Challenge: deadbeef
 Response: 21957ba7
 ```
+
+# encryptSimos.kt
+Kotlin implementation of (today) the checksumming functions used on the calibration blocks.
